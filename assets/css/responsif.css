@@ -42,7 +42,7 @@
         position: fixed;
         width: 50%;
         right: 0;
-        top: 0;
+        top: 0; 
         height: 100vh;
         flex-direction: column;
         background: var(--primaryBackgroundColor);
@@ -84,11 +84,13 @@
 
     .hero-right{
         order: -1;
+        margin-top: 5.5rem;
     }
 
     .hero-right img{
         width: 100%;
         padding-bottom: 1.2rem;
+    
     }
 
     .hero-left{

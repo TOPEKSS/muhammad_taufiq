@@ -8,24 +8,7 @@ const navSlide = () => {
         burger.classList.toggle("toggle-burger");
     });
 
-    let lastScrollTop = 0;
-
-    window.addEventListener('scroll', () => {
-        let scrollTop = window.scrollY;
-
-        // Cek apakah navList memiliki kelas 'nav-active' sebelum mengubah visibilitas burger
-        if (!navList.classList.contains('nav-active')) {
-            if (scrollTop > lastScrollTop) {
-                // Scrolling down
-                burger.classList.add('hidden');
-            } else {
-                // Scrolling up
-                burger.classList.remove('hidden');
-            }
-        }
-
-        lastScrollTop = scrollTop;
-    });
+    
 };
 
 navSlide();
