@@ -230,6 +230,13 @@ nav ul li a{
     text-align: center;
 }
 
+.grid-3-service{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+/* 
 .service{
     padding: 3rem 2rem;
     text-align: center;
@@ -253,7 +260,7 @@ nav ul li a{
 
 .service-icon svg{
     fill: var(--primaryIconColor);
-}
+} */
 
 /* portfolio section */
 
